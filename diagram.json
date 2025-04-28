@@ -1,0 +1,22 @@
+{
+    "version": 1,
+    "author": "Джон Смит",
+    "editor": "wokwi",
+    "parts": [
+      { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 0, "left": -4.76, "attrs": {} },
+      {
+        "type": "wokwi-neopixel",
+        "id": "rgb1",
+        "top": 80.5,
+        "left": 124,
+        "rotate": 180,
+        "attrs": {}
+      }
+    ],
+    "connections": [
+      [ "esp:TX", "$serialMonitor:RX", "", [] ],
+      [ "esp:RX", "$serialMonitor:TX", "", [] ],
+      [ "rgb1:DIN", "esp:19", "green", [ "h0" ] ]
+    ],
+    "dependencies": {}
+  }

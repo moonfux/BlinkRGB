@@ -1,0 +1,4 @@
+[wokwi]
+version=1
+firmware='build/BlinkRGB.ino.bin'
+elf='build/BlinkRGB.ino.elf'
