@@ -1,4 +1,4 @@
-Now this is Demo blinker
+Now this is Demo blinker for ESP32
 
 Project internrt-led-clock
 
